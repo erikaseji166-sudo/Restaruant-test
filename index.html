@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taqueria Mejia | Menu</title>
+    <style>
+        :root {
+            --mexican-red: #CE1126;
+            --mexican-green: #006847;
+            --gold: #F1B82D;
+            --dark: #1a1a1a;
+        }
+
+        body {
+            font-family: 'Trebuchet MS', sans-serif;
+            margin: 0;
+            background-color: #fffaf0;
+            color: var(--dark);
+        }
+
+        header {
+            background-color: var(--mexican-green);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            border-bottom: 8px solid var(--mexican-red);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px var(--dark);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .menu-section {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            border-left: 5px solid var(--gold);
+        }
+
+        h2 {
+            color: var(--mexican-red);
+            text-transform: uppercase;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .item-name {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .price {
+            color: var(--mexican-green);
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px;
+            background: var(--dark);
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>TAQUERIA MEJIA</h1>
+    <p style="font-size: 1.2rem; color: var(--gold);">¡Sabor casero en cada comida!</p>
+</header>
+
+<div class="container">
+    
+    <!-- Birria & Seafood -->
+    <div class="menu-section">
+        <h2>Especialidades</h2>
+        <div class="menu-item">
+            <span class="item-name">Pizzabirria</span>
+            <span class="price">$22.00</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Mojarras</span>
+            <span class="price">$15.99</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Shrimp Cocktail</span>
+            <span class="price">$14.50</span>
+        </div>
+    </div>
+
+    <!-- Main Menu -->
+    <div class="menu-section">
+        <h2>Antojitos</h2>
+        <div class="menu-item"><span class="item-name">Tacobirrias</span><span class="price">$3.50</span></div>
+        <div class="menu-item"><span class="item-name">Tacos</span><span class="price">$2.50</span></div>
+        <div class="menu-item"><span class="item-name">Burritos</span><span class="price">$9.50</span></div>
+        <div class="menu-item"><span class="item-name">Tortas</span><span class="price">$10.00</span></div>
+        <div class="menu-item"><span class="item-name">Quesadillas</span><span class="price">$8.50</span></div>
+        <div class="menu-item"><span class="item-name">Sopes</span><span class="price">$4.50</span></div>
+        <div class="menu-item"><span class="item-name">Crispitos</span><span class="price">$7.00</span></div>
+    </div>
+
+    <!-- Burgers & More -->
+    <div class="menu-section">
+        <h2>Favoritos</h2>
+        <div class="menu-item">
+            <span class="item-name">Mexican Hamburgers</span>
+            <span class="price">$11.50</span>
+        </div>
+        <div class="menu-item"><span class="item-name">Wings</span><span class="price">$10.99</span></div>
+        <div class="menu-item"><span class="item-name">Chicken Nuggets</span><span class="price">$6.50</span></div>
+        <div class="menu-item"><span class="item-name">Fries</span><span class="price">$3.50</span></div>
+    </div>
+
+</div>
+
+<footer class="footer">
+    <div style="margin-bottom: 20px;">
+        <h2 style="color: var(--gold); border: none;">Taqueria Mejia</h2>
+        <p style="font-size: 1.1rem;">Located inside Valero Davis Food Mart</p>
+        
+        <p>
+            <a href="https://www.google.com/maps/place/Valero/@32.7500038,-96.9229099,17z/data=!3m1!4b1!4m6!3m5!1s0x864e852b3d22e537:0x87ea4cfe2104324f!8m2!3d32.7500038!4d-96.9229099!16s%2Fg%2F11hctkt7yc?hl=en&entry=ttu&g_ep=EgoyMDI2MDQyMS4wIKXMDSoASAFQAw%3D%3D" 
+               target="_blank" 
+               style="color: white; text-decoration: none; border-bottom: 1px dashed var(--gold);">
+               6011 W Davis St, Dallas, TX 75211
+            </a>
+        </p>
+    </div>
+
+    <div style="border-top: 1px solid #444; padding-top: 20px; font-size: 0.9rem; color: #bbb;">
+        <p>Open Daily | Phone: 2144074384</p>
+        <p>&copy; 2026 Taqueria Mejia. All Rights Reserved.</p>
+    </div>
+</footer>
